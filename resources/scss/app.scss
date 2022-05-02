@@ -1,0 +1,33 @@
+@import '~bootstrap/scss/bootstrap';
+
+
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+
+.gradient-custom-3 {
+    background: #84fab0;
+    
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+    
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+    }
+    .gradient-custom-4 {
+        background: #ff0080;
+
+        background: -webkit-linear-gradient(to right, rgba(255, 0, 128, 1), rgba(255, 128, 0, 1));
+
+        background: linear-gradient(to right, rgba(255, 0, 128, 1), rgba(255, 128, 0, 1))
+    }
+    .gradient-custom-4:hover {
+        background: #fa709a;
+
+        background: -webkit-linear-gradient(to right, rgba(250, 112, 154, 1), rgba(254, 225, 64, 1));
+
+        background: linear-gradient(to right, rgba(250, 112, 154, 1), rgba(254, 225, 64, 1))
+    }
+    .auth-card{
+        background: #84fab0;
+        
+        background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+        
+        background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+    }
